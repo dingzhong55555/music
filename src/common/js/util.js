@@ -13,6 +13,7 @@ export function shuffle(arr) {
   return _arr
 }
 
+// 截流函数，避免搜索输入框每次输入值改变的时候就发送search的请求
 export function debounce(func, delay) {
   let timer
 
